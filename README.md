@@ -74,7 +74,16 @@ python src/navigation/astar_gui.py
 * [ ] 3D Path visualization using `PyQt5` or `Three.js`.
 
 ---
+Workspace for your Project
+```bash
+# Create a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
+# Install all dependencies
+pip install -r requirements.txt
+```
+---
 ## 📄 License
 
 Licensed under the **Apache License, Version 2.0**. You may use, modify, and distribute this software freely, provided you include the original copyright notice and a copy of the license. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for full details.
