@@ -1,0 +1,19 @@
+# --- Core Numerical & Data Processing ---
+numpy>=1.24.0          # Essential for grid-world matrices and coordinate calculations
+pandas>=2.0.0         # Used for attribute selection and dataset handling (Exp 2, 6)
+scipy>=1.10.0         # Mathematical optimizations for local search algorithms
+
+# --- GUI & Visualizations ---
+pygame>=2.5.0         # Main engine for interactive path planning & grid animations
+matplotlib>=3.7.0     # For plotting RL reward convergence and Bayesian probabilities
+networkx>=3.0         # To visualize state-space search trees (BFS/DFS/A*)
+pillow>=10.0.0        # Image processing for custom GUI sprites
+
+# --- Artificial Intelligence & Robotics ---
+gymnasium>=0.28.1     # Modern API for RL environments like Frozen Lake (Exp 11, 12)
+gymnasium[toy-text]   # Specific environments for GridWorld and Frozen Lake
+scikit-learn>=1.2.0   # For classification metrics in attribute selection tasks
+
+# --- Utilities ---
+tqdm>=4.65.0          # Progress bars for training RL agents (Q-Learning)
+colorama>=0.4.6       # Colored terminal output for search algorithm logs
